@@ -13,6 +13,7 @@
 		B6A28A8B1F282CDF00786B97 /* MCP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6A28A891F282CDF00786B97 /* MCP.xcdatamodeld */; };
 		B6A28A8D1F282CDF00786B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6A28A8C1F282CDF00786B97 /* Assets.xcassets */; };
 		B6A28A901F282CDF00786B97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A28A8E1F282CDF00786B97 /* LaunchScreen.storyboard */; };
+		B6A28A981F28348200786B97 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A28A971F28348200786B97 /* MessageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B6A28A8C1F282CDF00786B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6A28A8F1F282CDF00786B97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6A28A911F282CDF00786B97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A28A971F28348200786B97 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B6A28A821F282CDF00786B97 /* AppDelegate.swift */,
 				B6A28A841F282CDF00786B97 /* ViewController.swift */,
+				B6A28A971F28348200786B97 /* MessageViewController.swift */,
 				B6A28A861F282CDF00786B97 /* Main.storyboard */,
 				B6A28A8C1F282CDF00786B97 /* Assets.xcassets */,
 				B6A28A8E1F282CDF00786B97 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			files = (
 				B6A28A851F282CDF00786B97 /* ViewController.swift in Sources */,
 				B6A28A831F282CDF00786B97 /* AppDelegate.swift in Sources */,
+				B6A28A981F28348200786B97 /* MessageViewController.swift in Sources */,
 				B6A28A8B1F282CDF00786B97 /* MCP.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
